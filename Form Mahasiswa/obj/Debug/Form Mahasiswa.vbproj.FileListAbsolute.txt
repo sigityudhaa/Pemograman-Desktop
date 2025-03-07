@@ -2,9 +2,9 @@ c:\users\a c e r\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahas
 c:\users\a c e r\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahasiswa\bin\Debug\Form Mahasiswa.exe
 c:\users\a c e r\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahasiswa\bin\Debug\Form Mahasiswa.pdb
 c:\users\a c e r\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahasiswa\bin\Debug\Form Mahasiswa.xml
-c:\users\a c e r\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahasiswa\obj\Debug\Form_Mahasiswa.Form.resources
 c:\users\a c e r\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahasiswa\obj\Debug\Form_Mahasiswa.Resources.resources
 c:\users\a c e r\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahasiswa\obj\Debug\Form Mahasiswa.vbproj.GenerateResource.Cache
 c:\users\a c e r\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahasiswa\obj\Debug\Form Mahasiswa.exe
 c:\users\a c e r\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahasiswa\obj\Debug\Form Mahasiswa.xml
 c:\users\a c e r\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahasiswa\obj\Debug\Form Mahasiswa.pdb
+C:\Users\A C E R\documents\visual studio 2013\Projects\Form Mahasiswa\Form Mahasiswa\obj\Debug\Form_Mahasiswa.Form1.resources

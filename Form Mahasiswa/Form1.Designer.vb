@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form
+Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -31,6 +31,8 @@ Partial Class Form
         Me.cbfakultas = New System.Windows.Forms.ComboBox()
         Me.cbjurusan = New System.Windows.Forms.ComboBox()
         Me.btnprocess = New System.Windows.Forms.Button()
+        Me.rbl = New System.Windows.Forms.RadioButton()
+        Me.rbp = New System.Windows.Forms.RadioButton()
         Me.SuspendLayout()
         '
         'Label1
@@ -45,7 +47,7 @@ Partial Class Form
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(33, 80)
+        Me.Label2.Location = New System.Drawing.Point(33, 77)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(35, 13)
         Me.Label2.TabIndex = 1
@@ -54,7 +56,7 @@ Partial Class Form
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(30, 119)
+        Me.Label3.Location = New System.Drawing.Point(30, 146)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(47, 13)
         Me.Label3.TabIndex = 2
@@ -63,7 +65,7 @@ Partial Class Form
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(33, 165)
+        Me.Label4.Location = New System.Drawing.Point(33, 192)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(44, 13)
         Me.Label4.TabIndex = 3
@@ -78,7 +80,7 @@ Partial Class Form
         '
         'txtnama
         '
-        Me.txtnama.Location = New System.Drawing.Point(130, 73)
+        Me.txtnama.Location = New System.Drawing.Point(130, 70)
         Me.txtnama.Name = "txtnama"
         Me.txtnama.Size = New System.Drawing.Size(222, 20)
         Me.txtnama.TabIndex = 5
@@ -87,7 +89,7 @@ Partial Class Form
         '
         Me.cbfakultas.FormattingEnabled = True
         Me.cbfakultas.Items.AddRange(New Object() {"FMIPA", "FKIP", "FEB"})
-        Me.cbfakultas.Location = New System.Drawing.Point(130, 111)
+        Me.cbfakultas.Location = New System.Drawing.Point(130, 138)
         Me.cbfakultas.Name = "cbfakultas"
         Me.cbfakultas.Size = New System.Drawing.Size(222, 21)
         Me.cbfakultas.TabIndex = 6
@@ -96,7 +98,7 @@ Partial Class Form
         '
         Me.cbjurusan.FormattingEnabled = True
         Me.cbjurusan.Items.AddRange(New Object() {"MATEMATIKA", "KIMIA", "BIOLOGI", "FISIKA", "ILMU KOMPUTER"})
-        Me.cbjurusan.Location = New System.Drawing.Point(130, 157)
+        Me.cbjurusan.Location = New System.Drawing.Point(130, 184)
         Me.cbjurusan.Name = "cbjurusan"
         Me.cbjurusan.Size = New System.Drawing.Size(222, 21)
         Me.cbjurusan.TabIndex = 7
@@ -110,11 +112,35 @@ Partial Class Form
         Me.btnprocess.Text = "Process"
         Me.btnprocess.UseVisualStyleBackColor = True
         '
-        'Form
+        'rbl
+        '
+        Me.rbl.AutoSize = True
+        Me.rbl.Location = New System.Drawing.Point(134, 115)
+        Me.rbl.Name = "rbl"
+        Me.rbl.Size = New System.Drawing.Size(60, 17)
+        Me.rbl.TabIndex = 9
+        Me.rbl.TabStop = True
+        Me.rbl.Text = "laki laki"
+        Me.rbl.UseVisualStyleBackColor = True
+        '
+        'rbp
+        '
+        Me.rbp.AutoSize = True
+        Me.rbp.Location = New System.Drawing.Point(222, 115)
+        Me.rbp.Name = "rbp"
+        Me.rbp.Size = New System.Drawing.Size(78, 17)
+        Me.rbp.TabIndex = 10
+        Me.rbp.TabStop = True
+        Me.rbp.Text = "perempuan"
+        Me.rbp.UseVisualStyleBackColor = True
+        '
+        'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(427, 254)
+        Me.Controls.Add(Me.rbp)
+        Me.Controls.Add(Me.rbl)
         Me.Controls.Add(Me.btnprocess)
         Me.Controls.Add(Me.cbjurusan)
         Me.Controls.Add(Me.cbfakultas)
@@ -124,7 +150,7 @@ Partial Class Form
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form"
+        Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -139,5 +165,7 @@ Partial Class Form
     Friend WithEvents cbfakultas As System.Windows.Forms.ComboBox
     Friend WithEvents cbjurusan As System.Windows.Forms.ComboBox
     Friend WithEvents btnprocess As System.Windows.Forms.Button
+    Friend WithEvents rbl As System.Windows.Forms.RadioButton
+    Friend WithEvents rbp As System.Windows.Forms.RadioButton
 
 End Class
