@@ -33,6 +33,7 @@ Partial Class Form1
         Me.btnprocess = New System.Windows.Forms.Button()
         Me.rbl = New System.Windows.Forms.RadioButton()
         Me.rbp = New System.Windows.Forms.RadioButton()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -134,11 +135,21 @@ Partial Class Form1
         Me.rbp.Text = "perempuan"
         Me.rbp.UseVisualStyleBackColor = True
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(30, 119)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(71, 13)
+        Me.Label5.TabIndex = 11
+        Me.Label5.Text = "Jenis Kelamin"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(427, 254)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.rbp)
         Me.Controls.Add(Me.rbl)
         Me.Controls.Add(Me.btnprocess)
@@ -167,5 +178,6 @@ Partial Class Form1
     Friend WithEvents btnprocess As System.Windows.Forms.Button
     Friend WithEvents rbl As System.Windows.Forms.RadioButton
     Friend WithEvents rbp As System.Windows.Forms.RadioButton
+    Friend WithEvents Label5 As System.Windows.Forms.Label
 
 End Class
