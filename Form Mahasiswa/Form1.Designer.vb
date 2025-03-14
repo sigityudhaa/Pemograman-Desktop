@@ -34,6 +34,14 @@ Partial Class Form1
         Me.rbl = New System.Windows.Forms.RadioButton()
         Me.rbp = New System.Windows.Forms.RadioButton()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Txttugas = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txtuts = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.txtuas = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -106,7 +114,7 @@ Partial Class Form1
         '
         'btnprocess
         '
-        Me.btnprocess.Location = New System.Drawing.Point(130, 219)
+        Me.btnprocess.Location = New System.Drawing.Point(36, 295)
         Me.btnprocess.Name = "btnprocess"
         Me.btnprocess.Size = New System.Drawing.Size(98, 23)
         Me.btnprocess.TabIndex = 8
@@ -144,11 +152,85 @@ Partial Class Form1
         Me.Label5.TabIndex = 11
         Me.Label5.Text = "Jenis Kelamin"
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(33, 239)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(27, 13)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "Nilai"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(115, 239)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(37, 13)
+        Me.Label7.TabIndex = 13
+        Me.Label7.Text = "Tugas"
+        '
+        'Txttugas
+        '
+        Me.Txttugas.Location = New System.Drawing.Point(159, 232)
+        Me.Txttugas.Name = "Txttugas"
+        Me.Txttugas.Size = New System.Drawing.Size(62, 20)
+        Me.Txttugas.TabIndex = 14
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(227, 239)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(29, 13)
+        Me.Label8.TabIndex = 15
+        Me.Label8.Text = "UTS"
+        '
+        'txtuts
+        '
+        Me.txtuts.Location = New System.Drawing.Point(262, 232)
+        Me.txtuts.Name = "txtuts"
+        Me.txtuts.Size = New System.Drawing.Size(62, 20)
+        Me.txtuts.TabIndex = 16
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(346, 239)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(29, 13)
+        Me.Label9.TabIndex = 17
+        Me.Label9.Text = "UAS"
+        '
+        'txtuas
+        '
+        Me.txtuas.Location = New System.Drawing.Point(381, 232)
+        Me.txtuas.Name = "txtuas"
+        Me.txtuas.Size = New System.Drawing.Size(62, 20)
+        Me.txtuas.TabIndex = 18
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(480, 239)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(57, 13)
+        Me.Label10.TabIndex = 19
+        Me.Label10.Text = "- GRADE -"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(427, 254)
+        Me.ClientSize = New System.Drawing.Size(565, 330)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.txtuas)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.txtuts)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Txttugas)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.rbp)
         Me.Controls.Add(Me.rbl)
@@ -179,5 +261,13 @@ Partial Class Form1
     Friend WithEvents rbl As System.Windows.Forms.RadioButton
     Friend WithEvents rbp As System.Windows.Forms.RadioButton
     Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Txttugas As System.Windows.Forms.TextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents txtuts As System.Windows.Forms.TextBox
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents txtuas As System.Windows.Forms.TextBox
+    Friend WithEvents Label10 As System.Windows.Forms.Label
 
 End Class
