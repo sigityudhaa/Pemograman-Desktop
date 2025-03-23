@@ -28,7 +28,7 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtnip = New System.Windows.Forms.TextBox()
         Me.txtnama = New System.Windows.Forms.TextBox()
-        Me.cbfakultas = New System.Windows.Forms.ComboBox()
+        Me.cbmatkul = New System.Windows.Forms.ComboBox()
         Me.cbjurusan = New System.Windows.Forms.ComboBox()
         Me.btnprocess = New System.Windows.Forms.Button()
         Me.rbl = New System.Windows.Forms.RadioButton()
@@ -79,9 +79,9 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(30, 121)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(47, 13)
+        Me.Label3.Size = New System.Drawing.Size(63, 13)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Fakultas"
+        Me.Label3.Text = "Mata Kuliah"
         '
         'Label4
         '
@@ -106,14 +106,14 @@ Partial Class Form1
         Me.txtnama.Size = New System.Drawing.Size(222, 20)
         Me.txtnama.TabIndex = 5
         '
-        'cbfakultas
+        'cbmatkul
         '
-        Me.cbfakultas.FormattingEnabled = True
-        Me.cbfakultas.Items.AddRange(New Object() {"FMIPA", "FKIP", "FEB"})
-        Me.cbfakultas.Location = New System.Drawing.Point(130, 113)
-        Me.cbfakultas.Name = "cbfakultas"
-        Me.cbfakultas.Size = New System.Drawing.Size(222, 21)
-        Me.cbfakultas.TabIndex = 6
+        Me.cbmatkul.FormattingEnabled = True
+        Me.cbmatkul.Items.AddRange(New Object() {"FMIPA", "FKIP", "FEB"})
+        Me.cbmatkul.Location = New System.Drawing.Point(130, 113)
+        Me.cbmatkul.Name = "cbmatkul"
+        Me.cbmatkul.Size = New System.Drawing.Size(222, 21)
+        Me.cbmatkul.TabIndex = 6
         '
         'cbjurusan
         '
@@ -167,7 +167,7 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(33, 214)
+        Me.Label6.Location = New System.Drawing.Point(35, 209)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(27, 13)
         Me.Label6.TabIndex = 12
@@ -176,7 +176,7 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(104, 214)
+        Me.Label7.Location = New System.Drawing.Point(106, 209)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(37, 13)
         Me.Label7.TabIndex = 13
@@ -184,7 +184,7 @@ Partial Class Form1
         '
         'Txttugas
         '
-        Me.Txttugas.Location = New System.Drawing.Point(147, 207)
+        Me.Txttugas.Location = New System.Drawing.Point(149, 202)
         Me.Txttugas.Name = "Txttugas"
         Me.Txttugas.Size = New System.Drawing.Size(62, 20)
         Me.Txttugas.TabIndex = 14
@@ -192,7 +192,7 @@ Partial Class Form1
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(215, 214)
+        Me.Label8.Location = New System.Drawing.Point(217, 209)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(29, 13)
         Me.Label8.TabIndex = 15
@@ -200,7 +200,7 @@ Partial Class Form1
         '
         'txtuts
         '
-        Me.txtuts.Location = New System.Drawing.Point(250, 207)
+        Me.txtuts.Location = New System.Drawing.Point(252, 202)
         Me.txtuts.Name = "txtuts"
         Me.txtuts.Size = New System.Drawing.Size(62, 20)
         Me.txtuts.TabIndex = 16
@@ -208,7 +208,7 @@ Partial Class Form1
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(334, 214)
+        Me.Label9.Location = New System.Drawing.Point(336, 209)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(29, 13)
         Me.Label9.TabIndex = 17
@@ -216,7 +216,7 @@ Partial Class Form1
         '
         'txtuas
         '
-        Me.txtuas.Location = New System.Drawing.Point(369, 207)
+        Me.txtuas.Location = New System.Drawing.Point(371, 202)
         Me.txtuas.Name = "txtuas"
         Me.txtuas.Size = New System.Drawing.Size(62, 20)
         Me.txtuas.TabIndex = 18
@@ -224,7 +224,7 @@ Partial Class Form1
         'lblgrade
         '
         Me.lblgrade.AutoSize = True
-        Me.lblgrade.Location = New System.Drawing.Point(468, 214)
+        Me.lblgrade.Location = New System.Drawing.Point(470, 209)
         Me.lblgrade.Name = "lblgrade"
         Me.lblgrade.Size = New System.Drawing.Size(57, 13)
         Me.lblgrade.TabIndex = 19
@@ -232,7 +232,7 @@ Partial Class Form1
         '
         'btnnew
         '
-        Me.btnnew.Location = New System.Drawing.Point(12, 252)
+        Me.btnnew.Location = New System.Drawing.Point(14, 247)
         Me.btnnew.Name = "btnnew"
         Me.btnnew.Size = New System.Drawing.Size(75, 23)
         Me.btnnew.TabIndex = 20
@@ -241,7 +241,7 @@ Partial Class Form1
         '
         'btnsave
         '
-        Me.btnsave.Location = New System.Drawing.Point(107, 252)
+        Me.btnsave.Location = New System.Drawing.Point(109, 247)
         Me.btnsave.Name = "btnsave"
         Me.btnsave.Size = New System.Drawing.Size(75, 23)
         Me.btnsave.TabIndex = 21
@@ -250,7 +250,7 @@ Partial Class Form1
         '
         'btndelete
         '
-        Me.btndelete.Location = New System.Drawing.Point(197, 252)
+        Me.btndelete.Location = New System.Drawing.Point(199, 247)
         Me.btndelete.Name = "btndelete"
         Me.btndelete.Size = New System.Drawing.Size(75, 23)
         Me.btndelete.TabIndex = 22
@@ -259,7 +259,7 @@ Partial Class Form1
         '
         'btnclose
         '
-        Me.btnclose.Location = New System.Drawing.Point(288, 252)
+        Me.btnclose.Location = New System.Drawing.Point(290, 247)
         Me.btnclose.Name = "btnclose"
         Me.btnclose.Size = New System.Drawing.Size(75, 23)
         Me.btnclose.TabIndex = 23
@@ -272,10 +272,10 @@ Partial Class Form1
         Me.dgvdata.AllowUserToDeleteRows = False
         Me.dgvdata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvdata.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgnip, Me.dgnama, Me.dgjeniskelamin, Me.dgjurusan, Me.dgmatkul, Me.dggrade})
-        Me.dgvdata.Location = New System.Drawing.Point(4, 301)
+        Me.dgvdata.Location = New System.Drawing.Point(4, 314)
         Me.dgvdata.Name = "dgvdata"
         Me.dgvdata.ReadOnly = True
-        Me.dgvdata.Size = New System.Drawing.Size(712, 223)
+        Me.dgvdata.Size = New System.Drawing.Size(715, 210)
         Me.dgvdata.TabIndex = 24
         '
         'dgnip
@@ -337,7 +337,7 @@ Partial Class Form1
         Me.Controls.Add(Me.rbl)
         Me.Controls.Add(Me.btnprocess)
         Me.Controls.Add(Me.cbjurusan)
-        Me.Controls.Add(Me.cbfakultas)
+        Me.Controls.Add(Me.cbmatkul)
         Me.Controls.Add(Me.txtnama)
         Me.Controls.Add(Me.txtnip)
         Me.Controls.Add(Me.Label4)
@@ -357,7 +357,7 @@ Partial Class Form1
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents txtnip As System.Windows.Forms.TextBox
     Friend WithEvents txtnama As System.Windows.Forms.TextBox
-    Friend WithEvents cbfakultas As System.Windows.Forms.ComboBox
+    Friend WithEvents cbmatkul As System.Windows.Forms.ComboBox
     Friend WithEvents cbjurusan As System.Windows.Forms.ComboBox
     Friend WithEvents btnprocess As System.Windows.Forms.Button
     Friend WithEvents rbl As System.Windows.Forms.RadioButton
