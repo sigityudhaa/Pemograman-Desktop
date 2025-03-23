@@ -30,7 +30,6 @@ Partial Class Form1
         Me.txtnama = New System.Windows.Forms.TextBox()
         Me.cbmatkul = New System.Windows.Forms.ComboBox()
         Me.cbjurusan = New System.Windows.Forms.ComboBox()
-        Me.btnprocess = New System.Windows.Forms.Button()
         Me.rbl = New System.Windows.Forms.RadioButton()
         Me.rbp = New System.Windows.Forms.RadioButton()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -77,7 +76,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(30, 121)
+        Me.Label3.Location = New System.Drawing.Point(30, 183)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(63, 13)
         Me.Label3.TabIndex = 2
@@ -86,7 +85,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(33, 167)
+        Me.Label4.Location = New System.Drawing.Point(33, 137)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(44, 13)
         Me.Label4.TabIndex = 3
@@ -109,8 +108,7 @@ Partial Class Form1
         'cbmatkul
         '
         Me.cbmatkul.FormattingEnabled = True
-        Me.cbmatkul.Items.AddRange(New Object() {"FMIPA", "FKIP", "FEB"})
-        Me.cbmatkul.Location = New System.Drawing.Point(130, 113)
+        Me.cbmatkul.Location = New System.Drawing.Point(130, 175)
         Me.cbmatkul.Name = "cbmatkul"
         Me.cbmatkul.Size = New System.Drawing.Size(222, 21)
         Me.cbmatkul.TabIndex = 6
@@ -118,20 +116,10 @@ Partial Class Form1
         'cbjurusan
         '
         Me.cbjurusan.FormattingEnabled = True
-        Me.cbjurusan.Items.AddRange(New Object() {"MATEMATIKA", "KIMIA", "BIOLOGI", "FISIKA", "ILMU KOMPUTER"})
-        Me.cbjurusan.Location = New System.Drawing.Point(130, 159)
+        Me.cbjurusan.Location = New System.Drawing.Point(130, 129)
         Me.cbjurusan.Name = "cbjurusan"
         Me.cbjurusan.Size = New System.Drawing.Size(222, 21)
         Me.cbjurusan.TabIndex = 7
-        '
-        'btnprocess
-        '
-        Me.btnprocess.Enabled = False
-        Me.btnprocess.Location = New System.Drawing.Point(355, 84)
-        Me.btnprocess.Name = "btnprocess"
-        Me.btnprocess.Size = New System.Drawing.Size(98, 23)
-        Me.btnprocess.TabIndex = 8
-        Me.btnprocess.UseVisualStyleBackColor = True
         '
         'rbl
         '
@@ -335,7 +323,6 @@ Partial Class Form1
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.rbp)
         Me.Controls.Add(Me.rbl)
-        Me.Controls.Add(Me.btnprocess)
         Me.Controls.Add(Me.cbjurusan)
         Me.Controls.Add(Me.cbmatkul)
         Me.Controls.Add(Me.txtnama)
@@ -359,7 +346,6 @@ Partial Class Form1
     Friend WithEvents txtnama As System.Windows.Forms.TextBox
     Friend WithEvents cbmatkul As System.Windows.Forms.ComboBox
     Friend WithEvents cbjurusan As System.Windows.Forms.ComboBox
-    Friend WithEvents btnprocess As System.Windows.Forms.Button
     Friend WithEvents rbl As System.Windows.Forms.RadioButton
     Friend WithEvents rbp As System.Windows.Forms.RadioButton
     Friend WithEvents Label5 As System.Windows.Forms.Label

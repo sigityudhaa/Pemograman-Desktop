@@ -149,4 +149,7 @@
         End If
     End Sub
 
+    Private Sub cbmatkul_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbmatkul.SelectedIndexChanged
+
+    End Sub
 End Class
